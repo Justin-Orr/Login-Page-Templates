@@ -22,13 +22,39 @@
     #login-logo {
       height: 65px;
       width: 65px;
+      margin-bottom: 25px;
+      margin-top: 20px; //padding from entire panel is 5px so 5 + 5 = 10px
+    }
+
+    #sign-in-label {
+      font-weight: bold;
+      margin-bottom: 25px;
+      font-size: 32px;
     }
 
     #auth-form {
       display:flex;
       flex-direction: column;
 
-      input, button {
+      input {
+        font-family: $base-font;
+        width: 300px;
+      }
+
+      input::placeholder {
+        color: rgb(0 0 0 / 50%);
+        opacity: 1; /* Firefox */
+      }
+
+      #email-field {
+        margin-bottom: 12px;
+      }
+
+      #password-field {
+        margin-bottom: 25px;
+      }
+
+      button {
         font-family: $base-font;
       }
 

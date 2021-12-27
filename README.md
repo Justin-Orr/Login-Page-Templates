@@ -8,3 +8,4 @@ This project is designed to practice making login pages with different verificat
 - JQuery
 - SASS
 - Node Js
+- Bulma

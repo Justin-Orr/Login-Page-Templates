@@ -1,4 +1,6 @@
 @import "base/reset.scss"; /* Must be first */
 
+@import "../node_modules/bulma/bulma.sass"; /* Bulma Styling Dependency*/
+
 @import "base/typography.scss";
 @import "elements/login_panel.scss";
