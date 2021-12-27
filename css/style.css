@@ -10372,7 +10372,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   border: thin solid rgba(0, 0, 0, 0.35);
   border-radius: 10px;
   width: 500px;
-  height: 600px;
 }
 #login-panel #login-panel-content {
   display: flex;
@@ -10408,10 +10407,33 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   margin-bottom: 12px;
 }
 #login-panel #login-panel-content #auth-form #password-field {
-  margin-bottom: 25px;
+  margin-bottom: 12px;
+}
+#login-panel #login-panel-content #auth-form #forgot-password-link {
+  margin-bottom: 24px;
 }
 #login-panel #login-panel-content #auth-form button {
   font-family: "Montserrat", sans-serif;
+}
+#login-panel #login-panel-content #auth-form #sign-in-btn {
+  margin-bottom: 15px;
+}
+#login-panel #login-panel-content #auth-form #sign-in-up-spacer {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+}
+#login-panel #login-panel-content #auth-form #sign-in-up-spacer .sign-in-up-spacer-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 70px;
+  height: 2px;
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#login-panel #login-panel-content #auth-form #sign-up-btn {
+  margin-bottom: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */
