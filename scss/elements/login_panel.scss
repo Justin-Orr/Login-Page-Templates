@@ -1,0 +1,39 @@
+#login-panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: $base-font;
+
+  //box-shadow: 0px 1px 5px 3px rgb(0 0 0 / 35%);
+  padding: 10px;
+  border: thin solid rgb(0 0 0 / 35%);
+  border-radius: 10px;
+
+  width: 500px;
+  height: 600px;
+
+  #login-panel-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #login-logo {
+      height: 65px;
+      width: 65px;
+    }
+
+    #auth-form {
+      display:flex;
+      flex-direction: column;
+
+      input, button {
+        font-family: $base-font;
+      }
+
+    }
+
+  }
+
+}
